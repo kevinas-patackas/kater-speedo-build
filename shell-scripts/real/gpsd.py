@@ -27,7 +27,7 @@ gpsd = gps(mode=WATCH_ENABLE | WATCH_NEWSTYLE)
 try:
     while running:
         getPositionData(gpsd)
-        time.sleep(0.2)
+        time.sleep(0.04)
 
 except (KeyboardInterrupt):
     running = False

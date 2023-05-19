@@ -3666,7 +3666,7 @@ while [ 1 -le 2 ]
 do
   for i in ${!array[@]}; do
     echo ${array[$i]}
-    sleep 0.1
+    sleep 0.01
   done
 done
 
