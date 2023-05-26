@@ -24,14 +24,14 @@
           },
           "digitsRing": 580,
           "gauge": 464,
-          "danger": 24,
+          "danger": 15,
           "outline": 8,
           "outlineSpacer": 16,
-          "tick": 94,
-          "segmentDivider": 3,
+          "tick": 300,
+          "segmentDivider": 8,
           "label": 30,
           "value": 128,
-          "digits": 30
+          "digits": 0
         },
         "display": {
           "segments": {
@@ -76,8 +76,8 @@
       },
       "position": {
         "rotation": 0,
-        "x": -380,
-        "y": -55
+        "x": -350,
+        "y": -75
       }
     },
     {
@@ -108,7 +108,7 @@
           "outline": 8,
           "outlineSpacer": 16,
           "tick": 80,
-          "segmentDivider": 1,
+          "segmentDivider": 5,
           "label": 30,
           "value": 100,
           "digits": 30
@@ -156,8 +156,8 @@
       },
       "position": {
         "rotation": 0,
-        "x": -380,
-        "y": 255
+        "x": -350,
+        "y": 235
       }
     },
     {
@@ -184,18 +184,18 @@
           },
           "digitsRing": 580,
           "gauge": 464,
-          "danger": 24,
+          "danger": 15,
           "outline": 8,
           "outlineSpacer": 16,
-          "tick": 94,
-          "segmentDivider": 3,
+          "tick": 300,
+          "segmentDivider": 12,
           "label": 30,
           "value": 128,
-          "digits": 30
+          "digits": 0
         },
         "display": {
           "segments": {
-            "count": 40,
+            "count": 50,
             "rounding": 2
           },
           "digits": {
@@ -213,11 +213,11 @@
         },
         "values": {
           "min": 0,
-          "max": 80,
+          "max": 100,
           "ranges": [
             {
               "min": 0,
-              "max": 30,
+              "max": 40,
               "color": "#89d6fb"
             },
             {
@@ -226,8 +226,8 @@
               "color": "#E879F9"
             },
             {
-              "min": 60,
-              "max": 80,
+              "min": 70,
+              "max": 100,
               "color": "#ff0000",
               "danger": true
             }
@@ -236,8 +236,8 @@
       },
       "position": {
         "rotation": 0,
-        "x": 380,
-        "y": -55
+        "x": 350,
+        "y": -75
       }
     },
     {
@@ -250,7 +250,7 @@
           "outlineSpacer": 5,
           "tick": 40,
           "danger": 5,
-          "segmentDivider": 1,
+          "segmentDivider": 5,
           "label": 35,
           "subLabel": 20,
           "value": 0,
@@ -269,12 +269,12 @@
             "rounding": 1,
             "roundDown": 1,
             "overrides": {
-              "0": "EMPTY",
-              "100": "FULL"
+              "0": "Empty",
+              "100": "Full"
             }
           },
           "display": {
-            "label": "fuel",
+            "label": "FUEL",
             "subLabel": "",
             "roundingDown": 1
           }
@@ -307,8 +307,8 @@
       },
       "position": {
         "rotation": 0,
-        "x": -870,
-        "y": 73
+        "x": -850,
+        "y": 53
       }
     },
     {
@@ -321,7 +321,7 @@
           "outlineSpacer": 5,
           "tick": 40,
           "danger": 10,
-          "segmentDivider": 1,
+          "segmentDivider": 2,
           "label": 35,
           "subLabel": 20,
           "value": 0,
@@ -345,8 +345,8 @@
             }
           },
           "display": {
-            "label": "trim",
-            "subLabel": "",
+            "label": "TRIM",
+            "subLabel": " ",
             "roundingDown": 1
           }
         },
@@ -377,8 +377,8 @@
       },
       "position": {
         "rotation": 0,
-        "x": 870,
-        "y": 73
+        "x": 850,
+        "y": 53
       }
     },
     {
@@ -409,7 +409,7 @@
           "outline": 8,
           "outlineSpacer": 16,
           "tick": 80,
-          "segmentDivider": 1,
+          "segmentDivider": 9,
           "label": 30,
           "value": 100,
           "digits": 30
@@ -468,8 +468,8 @@
       },
       "position": {
         "rotation": 0,
-        "x": 380,
-        "y": 255
+        "x": 350,
+        "y": 235
       }
     },
     {
@@ -488,7 +488,7 @@
           },
           "display": {
             "padding": {
-              "top": 20,
+              "top": 0,
               "left": 0,
               "right": 0,
               "bottom": 0
@@ -499,15 +499,15 @@
           "danger": 15,
           "outline": 8,
           "outlineSpacer": 16,
-          "tick": 40,
-          "segmentDivider": 3,
-          "label": 25,
+          "tick": 100,
+          "segmentDivider": 8,
+          "label": 18,
           "value": 55,
           "digits": 0
         },
         "display": {
           "segments": {
-            "count": 8,
+            "count": 32,
             "rounding": 1
           },
           "digits": {
@@ -516,8 +516,8 @@
             "roundDown": 1
           },
           "display": {
-            "label": "VOLT",
-            "subLabel": "",
+            "label": "&nbsp;",
+            "subLabel": "VOLT",
             "roundingDown": 1
           }
         },

@@ -3,7 +3,7 @@
   "activeSleepTime": 0.1,
   "deviation": 100,
   "adcAddress": "0x48",
-  "channel": 0,
+  "channel": 1,
   "busnum": 1,
   "gain": 1,
   "valueRangeMap": {

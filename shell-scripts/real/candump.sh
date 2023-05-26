@@ -1,2 +1,2 @@
-# candump any
-candump * 316 329
+candump any
+# candump * 316 329

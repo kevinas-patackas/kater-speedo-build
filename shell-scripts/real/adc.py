@@ -66,7 +66,7 @@ def find_value_by_range(reading):
 
 
 # START ADS READING
-adc = Adafruit_ADS1x15.ADS1015(address=adc_address, busnum=BUSNUM)
+adc = Adafruit_ADS1x15.ADS1115(address=adc_address, busnum=BUSNUM)
 
 # initialize previous value
 prev_value = find_value_by_range(adc.read_adc(channel, gain=GAIN))

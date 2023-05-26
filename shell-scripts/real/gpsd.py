@@ -14,7 +14,7 @@ def getPositionData(gps):
         speed = getattr(nx, 'speed', "unknown")
         print("lon ", longitude)
         print("lat ", latitude)
-        print("speed ", speed)
+        print("speed ", speed*3600/1000)
     if nx['class'] == 'ATT':
         heading = getattr(nx, 'heading', "unknown")
         mheading = getattr(nx, 'mheading', "unknown")

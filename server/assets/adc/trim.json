@@ -1,19 +1,19 @@
 {
-  "sleepTime": 1,
+  "sleepTime": 0.2,
   "activeSleepTime": 0.1,
   "deviation": 100,
   "adcAddress": "0x48",
-  "channel": 0,
+  "channel": 2,
   "busnum": 1,
   "gain": 1,
   "valueRangeMap": {
     "limitToMinMax": true,
     "min": {
-      "reading": 0,
+      "reading": -300,
       "value": 0
     },
     "max": {
-      "reading": 1000,
+      "reading": 16150,
       "value": 100
     },
     "ranges": []

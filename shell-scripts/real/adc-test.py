@@ -19,7 +19,7 @@ GAIN = adc_args.get('gain', 1)
 if deviation is not None:
     active_sleep_time = adc_args.get('activeSleepTime', 0.03)
 
-adc = Adafruit_ADS1x15.ADS1015(address=adc_address, busnum=BUSNUM)
+adc = Adafruit_ADS1x15.ADS1115(address=adc_address, busnum=BUSNUM)
 
 # initialize previous value
 prev_value = adc.read_adc(channel, gain=GAIN)
