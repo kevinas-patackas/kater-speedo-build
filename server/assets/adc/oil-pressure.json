@@ -7,7 +7,7 @@
   "busnum": 1,
   "gain": 1,
   "valueRangeMap": {
-    "limitToMinMax": true,
+    "limitToMinMax": false,
     "min": {
       "reading": 17970,
       "value": 0
