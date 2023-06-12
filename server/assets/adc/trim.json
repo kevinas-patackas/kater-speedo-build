@@ -1,7 +1,7 @@
 {
   "sleepTime": 0.2,
-  "activeSleepTime": 0.1,
-  "deviation": 100,
+  "activeSleepTime": 0.06,
+  "deviation": 2,
   "adcAddress": "0x48",
   "channel": 2,
   "busnum": 1,
