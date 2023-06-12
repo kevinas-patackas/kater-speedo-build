@@ -9,13 +9,106 @@
   "valueRangeMap": {
     "limitToMinMax": true,
     "min": {
-      "reading": 0,
-      "value": 0
+      "reading": 5500,
+      "value": 4.2
     },
     "max": {
-      "reading": 1000,
-      "value": 12
+      "reading": 22500,
+      "value": 16
     },
-    "ranges": []
+    "ranges": [
+      {
+        "reading": 21750,
+        "value": 15.5
+      },
+      {
+        "reading": 21000,
+        "value": 15
+      },
+      {
+        "reading": 20330,
+        "value": 14.5
+      },
+      {
+        "reading": 19620,
+        "value": 14
+      },
+      {
+        "reading": 18910,
+        "value": 13.5
+      },
+      {
+        "reading": 18200,
+        "value": 13
+      },
+      {
+        "reading": 17480,
+        "value": 12.5
+      },
+      {
+        "reading": 16770,
+        "value": 12
+      },
+      {
+        "reading": 16050,
+        "value": 11.5
+      },
+      {
+        "reading": 15360,
+        "value": 11
+      },
+      {
+        "reading": 14640,
+        "value": 10.5
+      },
+      {
+        "reading": 13940,
+        "value": 10
+      },
+      {
+        "reading": 13220,
+        "value": 9.5
+      },
+      {
+        "reading": 12500,
+        "value": 9
+      },
+      {
+        "reading": 11780,
+        "value": 8.5
+      },
+      {
+        "reading": 11050,
+        "value": 8
+      },
+      {
+        "reading": 10360,
+        "value": 7.5
+      },
+      {
+        "reading": 9670,
+        "value": 7
+      },
+      {
+        "reading": 8930,
+        "value": 6.5
+      },
+      {
+        "reading": 8250,
+        "value": 6
+      },
+      {
+        "reading": 7520,
+        "value": 5.5
+      },
+      {
+        "reading": 6800,
+        "value": 5
+      },
+      {
+        "reading": 6100,
+        "value": 4.5
+      }
+    ]
   }
 }

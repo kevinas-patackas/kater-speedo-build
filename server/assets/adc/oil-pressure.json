@@ -9,11 +9,11 @@
   "valueRangeMap": {
     "limitToMinMax": true,
     "min": {
-      "reading": 0,
+      "reading": 18500,
       "value": 0
     },
     "max": {
-      "reading": 1000,
+      "reading": 32000,
       "value": 100
     },
     "ranges": []
