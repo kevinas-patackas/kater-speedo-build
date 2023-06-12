@@ -6,6 +6,7 @@
   "channel": 3,
   "busnum": 1,
   "gain": 1,
+  "roundTo": 1,
   "valueRangeMap": {
     "limitToMinMax": true,
     "min": {
