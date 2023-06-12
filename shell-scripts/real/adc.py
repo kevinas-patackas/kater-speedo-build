@@ -14,6 +14,7 @@ sleep_time = adc_args.get('sleepTime', 0.5)
 adc_address = int(adc_args.get('adcAddress', '0x48'), 16)
 channel = adc_args.get('channel', 0)
 deviation = adc_args.get('deviation', None)
+round_to = adc_args.get('roundTo', 0)
 BUSNUM = adc_args.get('busnum', 1)
 GAIN = adc_args.get('gain', 1)
 range_map = adc_args['valueRangeMap']
@@ -62,7 +63,7 @@ def find_value_by_range(reading):
     value = (reading - lower_range["reading"]) / (upper_range["reading"] - lower_range["reading"]) * (
         upper_range["value"] - lower_range["value"]) + lower_range["value"]
 
-    return round(value)
+    return round(value, round_to)
 
 
 # START ADS READING
